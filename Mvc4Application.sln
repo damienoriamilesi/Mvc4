@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc4Application", "Mvc4Application\Mvc4Application.csproj", "{DC546DF1-375C-43C8-8477-0A811038BF20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc4Resources", "Mvc4Resources\Mvc4Resources.csproj", "{06980A33-3892-49CE-89E7-D02FD5270805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{C1726060-C38F-4640-991A-F8E7EA36841F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC546DF1-375C-43C8-8477-0A811038BF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC546DF1-375C-43C8-8477-0A811038BF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC546DF1-375C-43C8-8477-0A811038BF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC546DF1-375C-43C8-8477-0A811038BF20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06980A33-3892-49CE-89E7-D02FD5270805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06980A33-3892-49CE-89E7-D02FD5270805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06980A33-3892-49CE-89E7-D02FD5270805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06980A33-3892-49CE-89E7-D02FD5270805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1726060-C38F-4640-991A-F8E7EA36841F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1726060-C38F-4640-991A-F8E7EA36841F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1726060-C38F-4640-991A-F8E7EA36841F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1726060-C38F-4640-991A-F8E7EA36841F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

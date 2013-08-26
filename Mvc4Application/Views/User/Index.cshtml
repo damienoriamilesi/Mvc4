@@ -1,0 +1,47 @@
+﻿@model IEnumerable<DataAccess.User>
+@{
+    ViewBag.Title = "Index";
+}
+<h2>
+    User</h2>
+<div style="float: right;">@Html.ActionLink("Add new", "add")</div>
+<table style="width: 100%">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Address 1
+        </th>
+        <th>
+            Address 2
+        </th>
+        <th>
+            BirthDate
+        </th>
+        <th>
+            Action
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Address1
+            </td>
+            <td>
+                @item.Address2
+            </td>
+            <td>
+                @item.BirthDate.Value.ToString("dd MMM yyyy")
+            </td>
+            <td>
+                @Html.ActionLink("edit", "edit", new { id = item.Id })
+                @Html.ActionLink("delete", "delete", new { id = item.Id }, new { onclick = "return confirm('Are you sure want to delete?')" })
+            </td>
+        </tr>
+    }
+</table>
